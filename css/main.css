@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url(./reset.css);
+
+
+
+header h1{
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+color: rgb(229, 53, 53);
+line-height: 8.5rem;
+font-size: 7rem;
+
+
+
+}
+figure, section{
+    max-width: 108rem;
+    margin: 1rem auto;
+}
+
+figure img{
+    width: 100%;/* 100% de la largeur du parent */
+}
+footer p{
+    text-align: center;
+}
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+figure.gallery-primary figcaption{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1rem 0;
+}
+
+/* galerie figcaption titre */
+
+
+figure.gallery-primary img{
+    width: auto;
+    height: 15rem;
+    
+}
+
+
+ 
+

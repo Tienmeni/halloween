@@ -1,0 +1,52 @@
+html{
+    /*selecteur css| propriété | valeur*/
+    font-size:62.5%;
+}     
+body{
+    font: 1.6rem sans-serif; /* serif defaut */
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: 0.1rem; /* 1px */
+   
+
+    background-color: #06060c;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+figure,
+p{
+    margin: 0;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+}
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+figure.gallery-primary figcaption{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1rem 0;
+}
+
+/* galerie figcaption titre */
+
+
+figure.gallery-primary img{
+    width: auto;
+    height: 15rem;
+    
+}
